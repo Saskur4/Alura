@@ -104,6 +104,43 @@
     .card{
         width: 50%;
         margin: 2em auto;
+    }    
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container{
+        display: flex;
+        margin: 0 15vw 3em 15vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .carrossel__titulo{
+        font-size: 32px;
+    }
+
+    .descrição__titulo{
+        font-size: 32px;
+    }
+
+    .descrição__texto{
+        font-size: 16px;
     }
     
+    .card{
+        width: 50%;
+        margin-left: 3em;
+        margin-top: 3em;
+    }
+
+    .descrição{
+        margin-right: 2em;
+    }
 }
