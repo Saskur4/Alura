@@ -1,0 +1,55 @@
+.container__topicos{
+     background-color: var(--azul-claro);
+     align-items: center;
+     justify-content: center;
+     padding: 1em;
+}
+.topicos__titulo{
+    text-align: center;
+    padding: 1em;
+}
+.topicos-imagem{
+    width: 35vw;
+}
+.lista__topicos-item{
+    padding-top: 0.5em;
+}
+.topicos__link{
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.contato{
+    display: inline-block;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+.contato__titulo{
+    font-weight: 700;
+}
+.contato-nome,
+.contato-mensagem{
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.contato-botao{
+    background-color: var(--azul);
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1em 2em;
+    display:inline-block;
+    margin-top: 0.5em;
+}
+.rodape{
+    text-align: center;
+}
