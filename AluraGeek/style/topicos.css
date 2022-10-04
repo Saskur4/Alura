@@ -1,0 +1,102 @@
+.container__topicos{
+    background-color: var(--azul-claro);
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.topicos__titulo{
+   text-align: center;
+   padding: 1em 0;
+}
+
+.topicos-imagem{
+   width: 35vw;
+}
+
+.lista__topicos-item{
+   padding-top: 0.5em;
+}
+
+.topicos__link{
+   text-decoration: none;
+   color: var(--cinza);
+   font-weight: 500;
+}
+
+.contato{
+   display: grid;
+   margin: 1em 0;
+}
+
+.contato__titulo{
+   font-weight: 700;
+}
+
+.contato-nome,
+.contato-mensagem{
+   padding: 0.5em;
+   margin: 0.5em 0;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+.contato-botao{
+   background-color: var(--azul);
+   text-decoration: none;
+   color: var(--branco);
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0.5em 1em;
+   margin-top: 0.5em;
+   width: 50%;
+   text-align: center;
+}
+
+.rodape{
+   text-align: center;
+   padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+   .container__topicos{
+       display: flex;        
+       justify-content: left;
+       padding: 0 2em;
+       display:grid;
+       grid-template-columns: 50% 50%;
+   }
+   
+   .topicos__titulo{
+       text-align: left;
+   }
+   
+   .topicos-imagem{
+       width: 50%;
+   }
+   
+   .contato{
+       display:grid
+   }
+   
+   .contato-botao{
+       width: 40%;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+    .container__topicos{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .topicos__titulo{
+        display:contents;
+    }
+    .contato-botao{
+       font-size: 16px;
+       padding: 1em 0;
+   }
+}

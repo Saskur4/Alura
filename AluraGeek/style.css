@@ -1,7 +1,7 @@
 @import url("style/header.css");
 @import url("style/banner.css");
 @import url("style/produtos.css");
-@import url("style/rodapé.css");
+@import url("style/topicos.css");
 
 :root{
     --branco: #FFFFFF;
@@ -9,6 +9,7 @@
     --azul: #2A7AE4;
     --cinza: #464646;
     --azul-claro: #EAF2FD;
+    --cinza-claro: #F5F5F5;
 }
 body{
     font-family: var(--fonte-principal);

@@ -1,34 +1,58 @@
 .produtos{
-    padding: 1em;
+    padding: 1.5em;
 }
+
 .container__titulo{
     display: flex;
     justify-content: space-between;
 }
+
 .produtos-titulo{
     font-size: 22px;
     font-weight: 700;
 }
+
 .lista__produto{
     display: flex;
     flex-wrap: wrap;
 }
+
 .lista__produto-item{
     width: 40%;
     padding: 1em;
 }
+
 .lista__produto-nome{
     font-size: 14px;
     font-weight: 500;
 }
+
 .lista__produto-preco{
     font-size: 16px;
     font-weight: 700;
 }
+
 .ver-tudo__link,
 .lista__produto-link{
     color: var(--azul);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .lista__produto-item{
+        width: 20%;
+        padding: 0.5em;
+    }
+
+    .ver-tudo__link, .lista__produto-link{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .produtos-titulo{
+        font-size: 32px;
+    }
 }

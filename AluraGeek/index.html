@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="container">
-            <img src="img/Logo.png" alt="Logo da Alura Geek" class="container__imagem">
+            <a href="#"><img src="img/Logo.png" alt="Logo da Alura Geek" class="container__imagem"></a>
+            <input type="search" name="" class="campo-pesquisa" placeholder="O que deseja encontrar?">
             <a href="#" class="login-link">Login</a>
             <input type="checkbox" id="pesquisa" class="container__botao">
             <label for="pesquisa"><img src="img/Lupa.png" alt="Lupa de pesquisa" class="pesquisa-botao">
             </label>
-            <input type="search" name="" id="campo-pesquisa" class="pesquisa">
+            <input type="search" name="" class="pesquisa">
         </div>
     </header>
     <section class="banner">
@@ -131,28 +132,31 @@
             </ul>
         </div>        
     </section>
-    <footer class="topicos">
+    <section class="topicos">
         <div class="container__topicos">
             <div class="topicos__titulo">
                 <img src="img/logo.png" alt="Logo da Alura Geek" class="topicos-imagem">
-                <ul class="lista-topicos">
-                    <li class="lista__topicos-item"><a href="#" class="topicos__link">Quem somos nós</a></li>
-                    <li class="lista__topicos-item"><a href="#" class="topicos__link">Política de privacidade</a></li>
-                    <li class="lista__topicos-item"><a href="#" class="topicos__link">Programa fidelidade</a></li>
-                    <li class="lista__topicos-item"><a href="#" class="topicos__link">Nossas lojas</a></li>
-                    <li class="lista__topicos-item"><a href="#" class="topicos__link">Quero ser franqueado</a></li>
-                    <li class="lista__topicos-item"><a href="#" class="topicos__link">Anuncie aqui</a></li>
-                </ul>
+                <div class="lista-link">
+                    <ul class="lista-topicos">
+                        <li class="lista__topicos-item"><a href="#" class="topicos__link">Quem somos nós</a></li>
+                        <li class="lista__topicos-item"><a href="#" class="topicos__link">Política de privacidade</a></li>
+                        <li class="lista__topicos-item"><a href="#" class="topicos__link">Programa fidelidade</a></li>
+                        <li class="lista__topicos-item"><a href="#" class="topicos__link">Nossas lojas</a></li>
+                        <li class="lista__topicos-item"><a href="#" class="topicos__link">Quero ser franqueado</a></li>
+                        <li class="lista__topicos-item"><a href="#" class="topicos__link">Anuncie aqui</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="topicos__contato">
                 <form class="contato">
                     <p class="contato__titulo">Fale conosco</p>
                     <input type="text" placeholder="Nome" class="contato-nome">
-                    <textarea name="mensagem" class="contato-mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    <textarea name="mensagem" class="contato-mensagem" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
                     <a href="#" class="contato-botao">Enviar mensagem</a>
                 </form>
             </div>
         </div>
+    <footer class="footer">
         <div class="rodape">
             <p class="rodape__texto">Desenvolvido por Jessica Oliveira</p>
             <p class="rodape__ano">2022</p>
