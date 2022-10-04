@@ -87,7 +87,7 @@
    }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .container__topicos{
         display: grid;
         grid-template-columns: 33% 33% 33%;
