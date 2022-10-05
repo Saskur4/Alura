@@ -1,0 +1,69 @@
+.container__login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cinza-claro);
+}
+
+.login-form{
+    text-align: center;
+}
+
+.container__login-titulo{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5em;
+}
+
+.container___login-sessao{
+    border: none;
+    padding: 0.5em;
+}
+.container__login-nome,
+.container__login-senha{
+    border: none;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container__login-enviar{
+    margin: 1em 3em;
+}
+
+.login-enviar{
+    background-color: var(--azul);
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    width: 20%;
+    text-align: center;
+}
+.login-enviar:hover{
+    background: var(--botao-azul-hover);
+}
+
+@media screen and(min-width: 768px) {
+    .container__login{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--cinza-claro);
+    }
+    
+    .container__login-form{
+        text-align: center;
+        display: grid;
+    }
+}
+
+@media screen and (min-width: 1028px){
+    .container__login-titulo{
+        font-size: 18px;
+    }   
+    .login-enviar{
+        font-size: 18px;
+    }
+}

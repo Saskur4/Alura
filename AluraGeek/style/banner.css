@@ -34,6 +34,10 @@
     padding: 1em 2em;
 }
 
+.banner__link:hover{
+    background-color: var(--botao-azul-hover);
+}
+
 @media screen and (min-width: 768px) {
     .banner__titulo{
         font-size: 52px;
@@ -46,5 +50,8 @@
 
 @media screen and (min-width: 1200px) {
 
-    
+    .banner__link{
+        font-size: 16px;
+        font-weight: 400;
+    }
 }

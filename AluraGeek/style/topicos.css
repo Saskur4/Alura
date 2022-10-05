@@ -11,7 +11,7 @@
 }
 
 .topicos-imagem{
-   width: 35vw;
+   width: 25vw;
 }
 
 .lista__topicos-item{
@@ -42,6 +42,7 @@
    font-weight: 400;
    font-size: 16px;
    line-height: 20px;
+   border: none;
 }
 
 .contato-botao{
@@ -56,11 +57,19 @@
    text-align: center;
 }
 
+.contato-botao:hover{
+   background-color: var(--botao-azul-hover);
+}
+
 .rodape{
    text-align: center;
    padding: 1em;
+   bottom: 1px;
+   height: 5px;
+   
 }
 
+/*tablet*/
 @media screen and (min-width: 768px) {
    .container__topicos{
        display: flex;        
@@ -75,7 +84,7 @@
    }
    
    .topicos-imagem{
-       width: 50%;
+       width: 10vw;
    }
    
    .contato{
@@ -87,6 +96,7 @@
    }
 }
 
+/*desktop*/
 @media screen and (min-width: 1200px) {
     .container__topicos{
         display: grid;

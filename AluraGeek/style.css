@@ -2,6 +2,7 @@
 @import url("style/banner.css");
 @import url("style/produtos.css");
 @import url("style/topicos.css");
+@import url("style/login.css");
 
 :root{
     --branco: #FFFFFF;
@@ -10,6 +11,8 @@
     --cinza: #464646;
     --azul-claro: #EAF2FD;
     --cinza-claro: #F5F5F5;
+    --botao-transparente-hover: #D4E4FA;
+    --botao-azul-hover: #5595E9;
 }
 body{
     font-family: var(--fonte-principal);
